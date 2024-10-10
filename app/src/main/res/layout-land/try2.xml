@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jugador:"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monto Apostado:"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monto Disponible:"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo del juego"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="116dp"
+        android:layout_height="90dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="11dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="263dp"
+        android:layout_height="114dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="198dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="168dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="168dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="168dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:text="Lanzar dados"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="383dp"
+        android:layout_height="136dp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="62dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="1"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:text="1"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:text="1"
+            app:layout_column="4"
+            app:layout_row="0" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:text="1"
+            app:layout_column="5"
+            app:layout_row="0" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:text="1"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:text="1"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="1"
+            app:layout_column="6"
+            app:layout_row="0" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marca tu apuesta"
+        tools:layout_editor_absoluteX="331dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

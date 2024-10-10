@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo del juego"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="116dp"
+        android:layout_height="90dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="11dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jugador:"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monto Apostado:"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos del juego:"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monto Disponible:"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
